@@ -45,7 +45,6 @@
 .navleft{
     text-decoration: none;
     color: black;
-    font-family: ;
     margin: 0px 80px 0px 55px;
     padding: 15px 0px 15px 0px;
 }
@@ -482,4 +481,25 @@ th{
     background-color: rgb(255, 106, 0);
     padding: 20px 40px 20px 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 768px) {
+    .section1{
+        padding: 113px 0px 51px 32px;
+    }
+    .navbar{
+        display: none;
+    }
+    .section1-text2{
+        font-size: 65px;
+    }
+    .section1-text3{
+        font-size: 46px;
+    }
+    .section2{
+        flex-wrap: wrap;
+        margin: 23px 0px 0px 40px;
+    }
+    .section3-imagebox1{
+        flex-wrap: wrap;
+    }
 }
